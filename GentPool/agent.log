@@ -1,0 +1,59 @@
+INFO:root:Creating Config from file: ./gentpool/pool/scholaragent/agent.yaml
+INFO:root:Starting to load configuration from ./gentpool/pool/scholaragent/agent.yaml
+INFO:root:Successfully loaded configuration from ./gentpool/pool/scholaragent/agent.yaml
+INFO:root:--------------------
+INFO:root:[green]Welcome to Gentopia!
+INFO:root:--------------------
+INFO:root:[green]User: 
+INFO:root:scholaragent is thinking...
+INFO:root:Done
+INFO:root:[blue]scholaragent: 
+INFO:root:{"name":"search_cite_paper", "arguments":{"title":"Gentopia: A collabarative platform for tool-augumented llms","top_k":5}}
+
+INFO:root:Calling function: search_cite_paper ...
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Gentopia%3A%20A%20collabarative%20platform%20for%20tool-augumented%20llms
+INFO:scholarly:Timeout Exception ReadTimeout while fetching page: ('timed out',)
+INFO:scholarly:Increasing timeout and retrying within same session.
+INFO:scholarly:Timeout Exception ReadTimeout while fetching page: ('timed out',)
+INFO:scholarly:Increasing timeout and retrying within same session.
+INFO:scholarly:Timeout Exception ReadTimeout while fetching page: ('timed out',)
+INFO:scholarly:Giving up this session.
+INFO:scholarly:Try #1 failed. Switching proxy.
+INFO:scholarly:Proxy works! IP address: 108.45.79.48
+INFO:scholarly:Proxy works! IP address: 108.45.79.48
+INFO:scholarly:Timeout Exception ConnectTimeout while fetching page: ('timed out',)
+INFO:scholarly:Increasing timeout and retrying within same session.
+INFO:scholarly:Timeout Exception ConnectTimeout while fetching page: ('timed out',)
+INFO:scholarly:Increasing timeout and retrying within same session.
+INFO:scholarly:Timeout Exception ConnectTimeout while fetching page: ('timed out',)
+INFO:scholarly:Giving up this session.
+INFO:scholarly:Try #2 failed. Switching proxy.
+INFO:scholarly:Proxy works! IP address: 108.45.79.48
+INFO:scholarly:Proxy works! IP address: 108.45.79.48
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Gentopia%3A%20A%20collabarative%20platform%20for%20tool-augumented%20llms "HTTP/1.1 200 OK"
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Neither Chrome nor Firefox/Geckodriver found in PATH
+INFO:scholarly:Exception AttributeError while fetching page: ("'NoneType' object has no attribute 'current_url'",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Try #3 failed. Switching proxy.
+INFO:scholarly:Proxy works! IP address: 108.45.79.48
+INFO:scholarly:Proxy works! IP address: 108.45.79.48
+INFO:scholarly:Timeout Exception ReadTimeout while fetching page: ('timed out',)
+INFO:scholarly:Increasing timeout and retrying within same session.
+INFO:scholarly:Timeout Exception ReadTimeout while fetching page: ('timed out',)
+INFO:scholarly:Increasing timeout and retrying within same session.
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Gentopia%3A%20A%20collabarative%20platform%20for%20tool-augumented%20llms "HTTP/1.1 302 Found"
+INFO:httpx:HTTP Request: GET https://www.google.com/sorry/index?continue=https:%2F%2Fscholar.google.com%2Fscholar%253Fhl%253Den%2526q%253DGentopia%25253A%252520A%252520collabarative%252520platform%252520for%252520tool-augumented%252520llms&hl=en&q=EgQiYT0NGPGkp7gGIixjboKhFErubASxDJuY57uSXqxpzU_gUaqYuEc71cbFxTSTbMqbd77VqbcArzIBcloBQw "HTTP/1.1 429 Too Many Requests"
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Try #4 failed. Switching proxy.
+INFO:scholarly:Proxy works! IP address: 108.45.79.48
+INFO:scholarly:Proxy works! IP address: 108.45.79.48
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Gentopia%3A%20A%20collabarative%20platform%20for%20tool-augumented%20llms "HTTP/1.1 200 OK"
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Neither Chrome nor Firefox/Geckodriver found in PATH
+INFO:scholarly:Exception AttributeError while fetching page: ("'NoneType' object has no attribute 'current_url'",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Try #5 failed. Switching proxy.
+INFO:scholarly:Proxy works! IP address: 108.45.79.48
+INFO:scholarly:Proxy works! IP address: 108.45.79.48

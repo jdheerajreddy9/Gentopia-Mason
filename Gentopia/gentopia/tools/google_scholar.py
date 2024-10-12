@@ -5,6 +5,10 @@ from scholarly import ProxyGenerator
 from itertools import islice
 
 
+pg = ProxyGenerator()
+pg.FreeProxies()
+scholarly.use_proxy(pg)
+
 class SearchAuthorByNameArgs(BaseModel):
     author: str = Field(..., description="author name with the institute name (optional), e.g., Tan Lee")
     top_k: int = Field(..., description="number of results to display. 5 is prefered")
